@@ -1,5 +1,5 @@
 # Hacktoberfest 2021 ✨
-This repository is made for everyone who wanted to learn about open-source and paricipate in Hactoberfest 2021.
+Welcome everyone!:raised_hands: This repository is made for everyone who wanted to learn about open-source and paricipate in Hacktoberfest 2021.
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
