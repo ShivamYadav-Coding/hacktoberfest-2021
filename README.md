@@ -1,4 +1,11 @@
 # Hacktoberfest 2021 ✨
+
+An Open Source repository to Teach people How to contribute to open sources.
+
+# Hacktoberfest-2021
+
+<img width="2295" alt="logo" src="https://user-images.githubusercontent.com/72811435/135575798-105b3530-6325-46d6-9935-76c41c683f04.png">
+
 Welcome everyone!:raised_hands: This repository is made for everyone who wanted to learn about open-source and paricipate in Hacktoberfest 2021.
 
 [![forthebadge](https://forthebadge.com/images/badges/built-by-developers.svg)](https://forthebadge.com)
