@@ -1,3 +1,4 @@
+* You must give a star to this repository.
 * You must go through the README once.
 * One must only use a single language for a single problem, you can use different language for different problem.
 * Issues will be assigned on a first come first serve basis.
