@@ -72,7 +72,7 @@ First things first, In order to contribute you have to create a Pull Request fro
     ```
     git remote add upstream https://github.com/ShivamYadav-Coding/hacktoberfest-2021.git
     git fetch upstream
-    git pull upstream master
+    git pull upstream main
     git push
     ```
 5. Create a seperate branch to work on:<br>
