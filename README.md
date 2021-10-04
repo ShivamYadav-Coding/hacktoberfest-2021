@@ -113,3 +113,11 @@ First things first, In order to contribute you have to create a Pull Request fro
         ![pic8](https://user-images.githubusercontent.com/69135897/135800336-3a00ca91-d219-4959-8a50-266930e44fa8.png)
     
 10. Wait for respose on the PR. Congratulations you just contributed to open source!
+
+
+## Code of conduct 👨‍💻
+[CODE_OF_CONDUCT.md](https://github.com/ShivamYadav-Coding/hacktoberfest-2021/blob/main/CODE_OF_CONDUCT.md)
+
+## Labels 🏷
+
+__Issues labelled with language name e.g Python, mean that the particular issue has been assigned for language in the label__
