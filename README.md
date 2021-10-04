@@ -48,3 +48,7 @@ Click on the [Issue button](https://github.com/ShivamYadav-Coding/hacktoberfest-
 
 Click new issue and fill up the details!<br>
 ![pic2](https://user-images.githubusercontent.com/69135897/135752032-9d34c5b4-5539-4ea2-8ee0-bf0eb331831d.png)
+
+__Note: Issues must clearly mention what they are addressing, if a problem is being put up then explain it using an example.__
+
+## Get contributing🤩
