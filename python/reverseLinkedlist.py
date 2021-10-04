@@ -49,7 +49,7 @@ llist.reverse()
 print ("\nReversed Linked List")
 llist.printList()
 
-
+#Output
 # Given Linked List
 # 1
 # 2
