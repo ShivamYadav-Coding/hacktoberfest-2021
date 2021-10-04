@@ -70,7 +70,7 @@ First things first, In order to contribute you have to create a Pull Request fro
     
 4. It is critical to keep your [forked repository in sync the upstream](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) repository so merge conflicts can be avoided:
     ```
-    git remote add upstream https://github.com/pratik-choudhari/AlgoCode.git
+    git remote add upstream https://github.com/ShivamYadav-Coding/hacktoberfest-2021.git
     git fetch upstream
     git pull upstream master
     git push
