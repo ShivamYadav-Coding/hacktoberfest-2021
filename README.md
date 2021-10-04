@@ -128,3 +128,7 @@ First things first, In order to contribute you have to create a Pull Request fro
 ## Labels 🏷
 
 __Issues labelled with language name e.g Python, mean that the particular issue has been assigned for language in the label__
+
+## Let's connect
+
+<a href="https://www.linkedin.com/in/shivam-yadav-89ab6519a/"><img src="https://hackernoon.com/images/PrB8ElNwFUY9FJD7Kw2aUJtm1UW2-cjw12i45.gif" align="left" height="52" width="52" ></a>
