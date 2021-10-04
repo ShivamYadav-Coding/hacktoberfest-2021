@@ -10,13 +10,11 @@ Welcome everyone!:raised_hands: This repository is made for everyone who wanted 
 ![](https://img.shields.io/github/issues/ShivamYadav-Coding/hacktoberfest-2021?color=%23F74700)
 ![](https://img.shields.io/github/stars/ShivamYadav-Coding/hacktoberfest-2021)
 ![](https://img.shields.io/github/contributors/ShivamYadav-Coding/hacktoberfest-2021)
-
 ![](https://img.shields.io/github/issues-pr/ShivamYadav-Coding/hacktoberfest-2021)
 ![](https://img.shields.io/github/last-commit/ShivamYadav-Coding/hacktoberfest-2021)
-![](https://img.shields.io/github/issues-pr/ShivamYadav-Coding/hacktoberfest-2021?color=%23e8d84a)
 
 ![](https://img.shields.io/badge/Python-green)
-![](https://img.shields.io/badge/Go-cyan)
+![](https://img.shields.io/badge/Kotline-cyan)
 ![](https://img.shields.io/badge/Java-blue)
 ![](https://img.shields.io/badge/C-yellowgreen)
 ![](https://img.shields.io/badge/C++-blueviolet)
@@ -68,21 +66,30 @@ First things first, In order to contribute you have to create a Pull Request fro
 3. Next up clone the forked repo on to the local machine using:<br>
 
     ``git clone <copied-fork-link>``
-    
-4. It is critical to keep your [forked repository in sync the upstream](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) repository so merge conflicts can be avoided:
+
+4. Run these command to add remote origin
+   ```
+   git remote add origin <The url of forked github repository>
+   ```
+   If this command give message like git remote already exist then run this command
+   ```
+   git remote set-url origin <The url of forked github repository>
+   ```
+   
+5. It is critical to keep your [forked repository in sync the upstream](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) repository so merge conflicts can be avoided:
     ```
     git remote add upstream https://github.com/ShivamYadav-Coding/hacktoberfest-2021.git
     git fetch upstream
     git pull upstream main
-    git push
     ```
-5. Create a seperate branch to work on:<br>
+    
+6. Create a seperate branch to work on:<br>
 
     The branch name must be selected according to the issue<br>
 
     ``git checkout -b <branch-name>``
 
-6. Contributors must follow the directory structure guidelines:
+7. Contributors must follow the directory structure guidelines:
     * All files must be kept in a directory.
     * Directory name must resemble the issue assigned.
     * Based on the language used, create a directory inside the language directory.
@@ -91,18 +98,18 @@ First things first, In order to contribute you have to create a Pull Request fro
     * Changes done by you will not affect existing structure of the project.
     * Add a README.md with your name and link to github profile using \[your-name](link-to-profile)
 
-7. After the contribution work is ready go ahead and add it to staging area:<br>
+8. After the contribution work is ready go ahead and add it to staging area:<br>
 
     ``git add -A``
 
-8. Now it is time to commit your changes and sync these changes to forked repo:<br>
+9. Now it is time to commit your changes and sync these changes to forked repo:<br>
 
     ``git commit -m <your_message>``
 
     ``git push origin <branch-name>`` 
 
 
-9. Issue a [pull request](https://www.atlassian.com/git/tutorials/making-a-pull-request) from forked repo to this repo:<br>
+10. Issue a [pull request](https://www.atlassian.com/git/tutorials/making-a-pull-request) from forked repo to this repo:<br>
     * Head over to `Pull Request` tab in the forked repo and click on `New Pull Request`
        ![pic6](https://user-images.githubusercontent.com/69135897/135800300-c2a07e53-3679-467a-a260-9237befc4ef7.png)
 
@@ -112,7 +119,7 @@ First things first, In order to contribute you have to create a Pull Request fro
     * Fill in the title and provide a concise description.
         ![pic8](https://user-images.githubusercontent.com/69135897/135800336-3a00ca91-d219-4959-8a50-266930e44fa8.png)
     
-10. Wait for respose on the PR. Congratulations you just contributed to open source!
+11. Wait for respose on the PR. Congratulations you just contributed to open source!
 
 
 ## Code of conduct 👨‍💻
