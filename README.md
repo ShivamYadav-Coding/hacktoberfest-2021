@@ -29,6 +29,7 @@ Hey there!👋
 * You can solve questions put up by contributors (tag moderators in comment to assign an issue to you and mention the language you will be using).
 * You can put up a problem yourself.
 * You can even contribute a project made by you!
+* Please read this issue [click here](https://github.com/ShivamYadav-Coding/hacktoberfest-2021/issues/7) for more information.
 
 ## New to github? No problem :) Refer to these resources 🆕
 * In Hindi Language -> Learn complete Git and Github in 1 video by Anuj Bhaiya: [Youtube](https://www.youtube.com/watch?v=uaeKhfhYE0U&ab_channel=AnujBhaiya)
