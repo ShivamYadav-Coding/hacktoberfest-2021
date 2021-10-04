@@ -52,3 +52,63 @@ Click new issue and fill up the details!<br>
 __Note: Issues must clearly mention what they are addressing, if a problem is being put up then explain it using an example.__
 
 ## Get contributing🤩
+
+__Note: One must read [CODE_OF_CONDUCT](https://github.com/ShivamYadav-Coding/hacktoberfest-2021/blob/main/CODE_OF_CONDUCT.md) before starting work on any issue__
+
+First things first, In order to contribute you have to create a Pull Request from your forked repo which is a remote clone of this upstream repository.<br>
+<img width="520" alt="pic3" src="https://user-images.githubusercontent.com/69135897/135800140-b70ee453-9b53-48e9-bac2-62258678cf80.png">
+
+1. Click this button at the top of screen to fork this repo, don't forget to star the repository!:<br>
+![pic4](https://user-images.githubusercontent.com/69135897/135800163-8e87a0f3-1643-4b54-aac5-2cbd81edfffa.jpg)
+
+2. Now head over to the forked repository and copy the clone HTTPS URL:<br>
+![pic5](https://user-images.githubusercontent.com/69135897/135800183-b3102af5-8ed6-4e81-8711-9fb13309e87e.png)
+
+3. Next up clone the forked repo on to the local machine using:<br>
+
+    ``git clone <copied-fork-link>``
+    
+4. It is critical to keep your [forked repository in sync the upstream](https://www.freecodecamp.org/news/how-to-sync-your-fork-with-the-original-git-repository/) repository so merge conflicts can be avoided:
+    ```
+    git remote add upstream https://github.com/pratik-choudhari/AlgoCode.git
+    git fetch upstream
+    git pull upstream master
+    git push
+    ```
+5. Create a seperate branch to work on:<br>
+
+    The branch name must be selected according to the issue<br>
+
+    ``git checkout -b <branch-name>``
+
+6. Contributors must follow the directory structure guidelines:
+    * All files must be kept in a directory.
+    * Directory name must resemble the issue assigned.
+    * Based on the language used, create a directory inside the language directory.
+    * Example: If I am writing in `Python` I will create a directory inside `Python` directory.
+    * In case a project is being contributed make sure to add the files inside a directory(name according to project) which in turn must be placed inside the `Projects` directory.
+    * Changes done by you will not affect existing structure of the project.
+    * Add a README.md with your name and link to github profile using \[your-name](link-to-profile)
+
+7. After the contribution work is ready go ahead and add it to staging area:<br>
+
+    ``git add -A``
+
+8. Now it is time to commit your changes and sync these changes to forked repo:<br>
+
+    ``git commit -m <your_message>``
+
+    ``git push origin <branch-name>`` 
+
+
+9. Issue a [pull request](https://www.atlassian.com/git/tutorials/making-a-pull-request) from forked repo to this repo:<br>
+    * Head over to `Pull Request` tab in the forked repo and click on `New Pull Request`
+       ![pic6](https://user-images.githubusercontent.com/69135897/135800300-c2a07e53-3679-467a-a260-9237befc4ef7.png)
+
+    * Verify base and head repository name and branch names.
+        ![pic7](https://user-images.githubusercontent.com/69135897/135800315-513bd4ec-da4c-4fab-aa8a-721861d9cff0.png)
+
+    * Fill in the title and provide a concise description.
+        ![pic8](https://user-images.githubusercontent.com/69135897/135800336-3a00ca91-d219-4959-8a50-266930e44fa8.png)
+    
+10. Wait for respose on the PR. Congratulations you just contributed to open source!
