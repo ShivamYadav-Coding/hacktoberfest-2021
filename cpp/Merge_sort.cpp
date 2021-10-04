@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void Merge(vector<int>& arr, int const start, int const mid, int const end) {
+void Merge(vector<int>& arr, int const start, int const mid, int const end){
 	int const left_size = mid - start + 1;
 	int const right_size = end - mid;
 	vector<int> left_arr(left_size);
