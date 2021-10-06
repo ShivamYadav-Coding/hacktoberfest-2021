@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+    <!--    <ImageView-->
+    <!--        android:id="@+id/splashIcon"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="141dp"-->
+    <!--        android:layout_alignParentEnd="true"-->
+    <!--        android:layout_alignParentRight="true"-->
+    <!--        android:layout_gravity="center"-->
+
+    <!--        android:foregroundGravity="center"-->
+    <!--        android:src="@drawable/welcome"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+    <TextView
+        android:id="@+id/tvAi"
+        android:background="@drawable/back"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="Smart Auto Silent"
+        android:textColor="#ffffff"
+        android:textSize="45sp"
+
+        android:textStyle="italic|bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_date"
+        android:layout_width="102dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/back"
+        android:onClick="showTimePickerDialog"
+        android:text="END TIME"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.741"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,OnClick" />
+
+    <Button
+        android:id="@+id/btn_time"
+        android:layout_width="102dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginEnd="264dp"
+        android:layout_marginRight="264dp"
+        android:layout_marginBottom="57dp"
+        android:background="@drawable/back"
+        android:onClick="showTimePickerDialog"
+        android:text="START TIME"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,OnClick" />
+
+
+    <Button
+        android:id="@+id/btn_timeset1"
+        android:layout_width="117dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginRight="147dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/back"
+        android:onClick="Dialog1"
+        android:text="Pick Normal Time"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,OnClick" />
+
+    <Button
+        android:id="@+id/btn_timeset"
+        android:layout_width="117dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginLeft="147dp"
+        android:layout_marginEnd="147dp"
+        android:layout_marginRight="147dp"
+        android:layout_marginBottom="22dp"
+        android:background="@drawable/back"
+        android:onClick="Dialog"
+        android:text="Pick Silent Time"
+        android:textColor="@android:color/white"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/btn_date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,OnClick" />
+
+    <TimePicker
+        android:id="@+id/timePicker1"
+        android:layout_width="366dp"
+        android:layout_height="444dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="132dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/splashIcon" />
+
+    <TimePicker
+        android:id="@+id/timePicker2"
+        android:layout_width="368dp"
+        android:layout_height="447dp"
+        android:layout_marginBottom="132dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/splashIcon"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="562dp"
+        android:layout_marginLeft="562dp"
+        android:background="@drawable/help"
+        android:scaleX="0.2"
+        android:scaleY="0.2"
+        android:text="Button"
+        android:textColor="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.837"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.07"
+        tools:ignore="MissingConstraints,OnClick" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    tools:context=".splashActivity">
+
+    <ImageView
+        android:id="@+id/splashIcon"
+        android:layout_width="match_parent"
+        android:layout_height="141dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:foregroundGravity="center"
+        android:src="@drawable/free1" />
+
+    <TextView
+        android:id="@+id/tvAi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splashIcon"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="Smart Auto Silent"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="italic|bold"
+
+        />
+
+    <ImageView
+        android:id="@+id/free"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/free"
+        android:layout_below="@+id/tvAi"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/tvshayan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/free"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="By Iqra Ghani"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
+        android:textStyle="bold"
+
+        />
+
+</RelativeLayout>
