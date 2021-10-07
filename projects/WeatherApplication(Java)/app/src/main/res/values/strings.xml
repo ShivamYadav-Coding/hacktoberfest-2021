@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WeatherApplication</string>
+    <string name="london_gb">London, GB</string>
+</resources>
