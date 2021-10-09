@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#03A9F4"
+    tools:context=".WeatherSearchCityActivity">
+
+    <EditText
+        android:id="@+id/editTextSearchCityName"
+        android:layout_width="325dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="9dp"
+        android:background="@drawable/round_shape"
+        android:drawableStart="@drawable/ic_baseline_location_city"
+        android:ems="10"
+        android:hint="Enter City Name"
+        android:inputType="textPersonName"
+        android:padding="3dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toStartOf="@+id/searchButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/editTextSearchCityName"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_search" />
+
+    <TextView
+        android:id="@+id/textViewSearchCityName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="119dp"
+        android:text="@string/london_gb"
+        android:textColor="@color/white"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextSearchCityName" />
+
+    <TextView
+        android:id="@+id/textViewSearchTemperature"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="56dp"
+        android:text="20.67 °C"
+        android:textColor="@color/white"
+        android:textSize="48sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearchCityName" />
+
+    <ImageView
+        android:id="@+id/imageViewSearchWeather"
+        android:layout_width="106dp"
+        android:layout_height="113dp"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="26dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearchCityName"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/textViewSearchDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="272dp"
+        android:layout_marginBottom="21dp"
+        android:text="DETAILS"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/textViewSearchHumidity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageViewSearchWeather" />
+
+    <TextView
+        android:id="@+id/textViewSearchWeather"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:layout_marginEnd="108dp"
+        android:text="Broken Clouds"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearchTemperature" />
+
+    <TextView
+        android:id="@+id/textViewSearchHumidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="21dp"
+        android:text="Humidity"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearchDetails" />
+
+    <TextView
+        android:id="@+id/textViewSearchMaxTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="24dp"
+        android:text="Max Temp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearchHumidity" />
+
+    <TextView
+        android:id="@+id/textViewSearchMinTemp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="23dp"
+        android:text="Min Temp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearchMaxTemp" />
+
+    <TextView
+        android:id="@+id/textViewSearchPressure"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="24dp"
+        android:text="Pressure"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearchMinTemp" />
+
+    <TextView
+        android:id="@+id/textViewSearchWind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="46dp"
+        android:layout_marginTop="21dp"
+        android:text="Wind"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearchPressure" />
+
+    <TextView
+        android:id="@+id/textViewSearchHumidityValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="93dp"
+        android:layout_marginTop="79dp"
+        android:text=" : % 56"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewSearchHumidity"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearchWeather" />
+
+    <TextView
+        android:id="@+id/textViewSearchMaxTempValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="24dp"
+        android:text=" : 21.67 °C"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewSearchMaxTemp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearchHumidityValue" />
+
+    <TextView
+        android:id="@+id/textViewSearchMinTempValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="23dp"
+        android:text=" : 18.89 °C"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewSearchMinTemp"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearchMaxTempValue" />
+
+    <TextView
+        android:id="@+id/textViewSearchPressureValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="24dp"
+        android:text=": 1010"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewSearchPressure"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearchMinTempValue" />
+
+    <TextView
+        android:id="@+id/textViewSearchWindValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="20dp"
+        android:text=" : 4.6"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintStart_toEndOf="@+id/textViewSearchWind"
+        app:layout_constraintTop_toBottomOf="@+id/textViewSearchPressureValue" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
