@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:background="@drawable/gradient_backgroung"
+    android:padding="6.0dip"
+    android:paddingLeft="6.0dip"
+    android:paddingTop="6.0dip"
+    android:paddingRight="6.0dip"
+    android:paddingBottom="6.0dip"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <Button
+        android:textSize="25.0sp"
+        android:textColor="@color/green"
+        android:id="@+id/convert"
+        android:background="@drawable/gradient_button"
+        android:layout_width="250.0dip"
+        android:layout_height="60.0dip"
+        android:text="Convert"
+        android:fontFamily="@font/gos_italic"
+        android:elevation="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edittext"
+        app:layout_constraintVertical_bias="0.788" />
+
+    <EditText android:textSize="28.0sp"
+        android:fontFamily="@font/gos_italic"
+        android:background="@null"
+        android:textColor="@color/green"
+        android:textColorHint="@color/green" android:gravity="center_horizontal" android:id="@id/edittext" android:padding="6.0dip" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:hint="Enter Area  " android:inputType="phone" app:layout_constraintBottom_toTopOf="@id/result" app:layout_constraintRight_toRightOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/to" />
+    <TextView android:textSize="28.0sp"
+        android:fontFamily="@font/gos_italic" android:textColor="@color/green" android:gravity="center"
+        android:id="@+id/result" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" android:hint="0.0000" app:layout_constraintBottom_toTopOf="@id/convert" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/edittext" app:layout_constraintVertical_bias="0.556" />
+    <TextView android:textSize="28.0sp"
+        android:fontFamily="@font/gos_italic" android:textColor="@color/green"
+        android:id="@+id/area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Area" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="28.0sp" android:textColor="@color/green"
+        android:fontFamily="@font/gos_italic"
+        android:id="@+id/fromtxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:text="From" app:layout_constraintBottom_toTopOf="@id/edittext" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/area" app:layout_constraintVertical_bias="0.011" />
+    <Spinner android:textSize="28.0sp" android:gravity="center_horizontal"
+        android:id="@+id/from" android:padding="6.0dip" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" app:layout_constraintBottom_toTopOf="@id/totxt" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/fromtxt" />
+    <TextView android:textSize="28.0sp" android:textColor="@color/green"
+        android:fontFamily="@font/gos_italic"
+        android:id="@+id/totxt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:text="To"
+        app:layout_constraintBottom_toTopOf="@+id/to" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toBottomOf="@id/from" app:layout_constraintVertical_bias="0.011" /> app:layout_constraintVertical_bias="0.011" />
+    <Spinner android:textSize="28.0sp" android:gravity="center_horizontal"
+    android:id="@+id/to" android:padding="6.0dip" android:paddingLeft="6.0dip" android:paddingTop="6.0dip" android:paddingRight="6.0dip" android:paddingBottom="6.0dip" android:layout_width="fill_parent" android:layout_height="54.0dip" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip" app:layout_constraintBottom_toTopOf="@id/edittext" app:layout_constraintHorizontal_bias="1.0" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/totxt" />
+</androidx.constraintlayout.widget.ConstraintLayout>
