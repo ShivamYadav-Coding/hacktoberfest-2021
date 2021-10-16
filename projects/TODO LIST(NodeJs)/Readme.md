@@ -1,4 +1,5 @@
 How to Use
+
   Install NodeJs (nodejs.org).
   Fork, Clone and open this repository in a terminal/command prompt.
   Execute npm install.
