@@ -1,3 +1,6 @@
+# ALERT - Please don't send pull request to this repository any more.
+## No more pull request to this repository will be counted for Hacktoberfest.
+---
 # Hacktoberfest 2021 ✨
 Welcome everyone!:raised_hands: This repository is made for everyone who wanted to learn about open-source and paricipate in Hacktoberfest 2021.
 
@@ -6,7 +9,7 @@ Welcome everyone!:raised_hands: This repository is made for everyone who wanted 
 [![forthebadge](https://forthebadge.com/images/badges/for-you.svg)](https://forthebadge.com)
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-coffee.svg)](https://forthebadge.com)
 
-![](https://img.shields.io/maintenance/yes/2021)
+![](https://img.shields.io/maintenance/no/2021)
 ![](https://img.shields.io/github/issues/ShivamYadav-Coding/hacktoberfest-2021?color=%23F74700)
 ![](https://img.shields.io/github/stars/ShivamYadav-Coding/hacktoberfest-2021)
 ![](https://img.shields.io/github/contributors/ShivamYadav-Coding/hacktoberfest-2021)
