@@ -1,5 +1,6 @@
 # ALERT - Please don't send pull request to this repository any more.
 ## No more pull request to this repository will be counted for Hacktoberfest.
+click [here](https://github.com/ShivamYadav-Coding/hacktoberfest-2021/issues/140) to know more.
 ---
 # Hacktoberfest 2021 ✨
 Welcome everyone!:raised_hands: This repository is made for everyone who wanted to learn about open-source and paricipate in Hacktoberfest 2021.
