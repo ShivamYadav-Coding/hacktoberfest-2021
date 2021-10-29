@@ -1,5 +1,5 @@
-//Count sort program 
-//Function body 
+#Count sort program 
+#Function body 
 
 def countingSort(arr):
     n = len(arr)
@@ -23,9 +23,9 @@ def countingSort(arr):
     for i in range(0, n):
         arr[i] = arr1[i]
 
-//Input 
+#Input 
 arr = [7, 2, 4, 8, 3, 3, 1]
-//Calling function 
+#Calling function 
 countingSort(arr)
-//Output
+#Output
 print(arr)
